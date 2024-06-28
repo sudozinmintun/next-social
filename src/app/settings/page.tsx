@@ -1,9 +1,7 @@
-const SettingsPage = () => {
+export default function Settings() {
     return (
-        <div className="">
-            SettingsPage
+        <div>
+            <h1>Setting</h1>
         </div>
-    )
+    );
 }
-
-export default SettingsPage;
