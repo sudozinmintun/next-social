@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function AddPost() {
     return (
-        <div className="p-4 bg-white rounded-lg flex gap-4 justify-between text-sm">
+        <div className="p-4 bg-white shadow-md rounded-lg flex gap-4 justify-between text-sm">
 
             <Image src="/profile.png" className="w-12 h-12 object-cover rounded-full" alt="" width={48} height={48} />
 
@@ -16,7 +16,7 @@ export default function AddPost() {
                         height={10}
                     />
                 </div>
-                
+
                 <div className="flex items-center gap-4 mt-4 text-gray-400">
                     <div className="flex items-center gap-2 cursor-pointer">
                         <Image src="/add_photo.png" alt="" width={20} height={20} />
